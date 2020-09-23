@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Monitor</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <div id="settings" class="login-clean">
+    <form method="post">
+      <div class="form-group"><label>Video Source</label><select id="videoSource" class="custom-select"></select></div>
+      <div class="form-group"><label>Audio Source</label><select id="audioSource" class="custom-select"></select></div>
+      <div class="form-group"><button id="choose" class="btn btn-primary btn-block" type="button" onclick="showVideo()">Monitor</button></div>
+    </form>
+  </div>
+
+  <video id="concealed" class="videosize" poster="assets/img/no-signal.gif" autoplay playsinline></video>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
