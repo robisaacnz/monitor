@@ -15,3 +15,8 @@
 * There's no audio feedback protection because it introduces too much latency, and the system default inputs are monitored when the app first loads. Temporarily mute either your input or your output if you're using this in a noisy environment, otherwise you will make bystanders very angry.
 * The included build script only produces debug builds and a release build needs additional assets copied into the bundle before it will run.
 * The included app bundle is more of a proof of concept and is not signed or notarised. By the time you read this, Apple will no doubt require you to scale a distant mountain peak and genuflect before an ancient shrine before being permitted to run it.
+
+## Screenshots
+<img src="screenshots/screenshot-1.png">
+<img src="screenshots/screenshot-2.png">
+<img src="screenshots/screenshot-3.png">
