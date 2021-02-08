@@ -43,7 +43,7 @@ function getStream() {
    const audioSource = audioSelect.value;
   const videoSource = videoSelect.value;
   const constraints = {
-    audio: {deviceId: audioSource ? {exact: audioSource} : undefined},
+    audio: {deviceId: audioSource ? {exact: audioSource} : undefined, echoCancellation: false, noiseSuppression: false, autoGainControl: false },
     video: {width: 1920, height: 1080, deviceId: videoSource ? {exact: videoSource} : undefined}
   };
   return navigator.mediaDevices.getUserMedia(constraints).
